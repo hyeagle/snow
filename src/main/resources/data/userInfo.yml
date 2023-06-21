@@ -1,0 +1,25 @@
+table: tb_user_info
+columns:
+  - name: id
+    column: id
+  - name: username
+    column: username
+  - name: age
+    column: age
+  - name: country
+    column: country
+  - name: registerTime
+    column: register_time
+  - name: phone
+    column: phone
+    is_array: true
+  - name: address
+    column: address
+    nested_col_key: extra_info_string.key
+    nested_col_value: extra_info_string.value
+  - name: deviceId
+    column: device_id
+    nested_col_key: extra_info_array.key
+    nested_col_value: extra_info_array.value
+    is_array: true
+
