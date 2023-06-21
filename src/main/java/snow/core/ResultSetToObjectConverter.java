@@ -1,4 +1,4 @@
-package snow.util;
+package snow.core;
 
 import snow.annotation.ColumnMapping;
 

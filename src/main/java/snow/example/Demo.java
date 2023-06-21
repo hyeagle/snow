@@ -1,7 +1,7 @@
 package snow.example;
 
 import snow.core.SqlParser;
-import snow.util.ResultSetToObjectConverter;
+import snow.core.ResultSetToObjectConverter;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
