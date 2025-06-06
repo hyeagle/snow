@@ -54,7 +54,7 @@ public class ResultSetToObjectConverter {
     }
 
     private static Field getField(Class<?> targetType, String columnName) {
-        // 尝试直接获取与列名匹配的字段
+        // 尝试直接获取与列名匹配的字段 test
         try {
             return targetType.getDeclaredField(columnName);
         } catch (NoSuchFieldException e) {
